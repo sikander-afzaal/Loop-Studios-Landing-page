@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+}
+.padding {
+  padding: 0px 110px;
+}
+/*Main Header */
+header {
+  background-image: url("./images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 67vh;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 62px;
+}
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 661px;
+  font-size: 18px;
+  /* margin-right: 0px; */
+  position: relative;
+  left: 132px;
+}
+.navs {
+  color: white;
+  text-decoration: none;
+  font-family: "Alata", sans-serif;
+  padding: 10px 0px;
+}
+.imr {
+  border: solid 3px white;
+  color: white;
+  padding: 2.5rem;
+  width: 650px;
+  height: 278px;
+  margin-top: 8.125rem;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 4.5rem;
+  line-height: 4.375rem;
+  margin-left: 335px;
+}
+/*Main After Header*/
+.main {
+  margin-top: 83px;
+  height: 60vh;
+}
+.vr {
+  width: 51%;
+  position: relative;
+  left: 120px;
+}
+.para-vr {
+  background-color: white;
+  width: 741px;
+  padding: 107px;
+  position: relative;
+  left: 714px;
+  top: -249px;
+}
+.vr-head {
+  font-size: 59px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.text-vr {
+  margin-top: 37px;
+  font-size: 17px;
+  line-height: 30px;
+  font-family: "Alata", sans-serif;
+}
+/*Our Creations Section*/
+.creations {
+  margin-top: 235px;
+  margin-left: 116px;
+  height: auto;
+}
+.top-cr {
+  margin: 75px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.head-cr {
+  font-size: 45px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+.cr-btn {
+  text-transform: uppercase;
+  padding: 11px 42px;
+  font-family: "Alata", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  background-color: white;
+  border: 2px solid black;
+}
+.img-cr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first,
+.second {
+  display: flex;
+}
+.images-cr {
+  margin: 20px 63px;
+  width: 296px;
+}
+.h1 {
+  text-transform: uppercase;
+  font-size: 38px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  /* line-height: 31px; */
+  position: relative;
+  top: -24%;
+  color: white;
+  width: 204px;
+  text-align: center;
+  right: -23%;
+}
+/*Footer*/
+footer {
+  background-color: black;
+  height: 15vh;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.social-logo img {
+  margin-left: 190px;
+}
+.icons {
+  margin-right: 190px;
+}
+.social-img {
+  margin-right: 40px;
+  padding-bottom: 10px;
+}
+.foot-ul {
+  color: white;
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 190px;
+}
+.foot-li {
+  margin-right: 50px;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  width: fit-content;
+  padding-bottom: 10px;
+}
+.underline:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+.cr-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.images-cr:hover {
+  opacity: 0.4;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  color: black;
+}
