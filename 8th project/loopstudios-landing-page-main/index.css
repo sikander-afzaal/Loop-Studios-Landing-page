@@ -196,10 +196,13 @@ footer {
 .mobile {
   display: none;
 }
+.cross {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
 @media only screen and (max-width: 375px) {
-  * {
-    overflow-x: hidden;
-  }
   .padding {
     padding: 0px 20px;
   }
@@ -210,9 +213,12 @@ footer {
     display: flex;
     padding-top: 50px;
     align-items: center;
+    overflow-x: hidden;
   }
   .hamburger {
     height: 25px;
+    z-index: 20;
+    display: block;
   }
   .desktop {
     display: none;
@@ -364,5 +370,49 @@ footer {
   .mobile-icons {
     margin-top: 24px;
     margin-left: 63px;
+  }
+  .nav-buttons {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    /* height: 128vh; */
+    /* bottom: -10%; */
+    /* height: 211px; */
+    /* overflow: hidden; */
+    transition: all 1s ease-in-out;
+  }
+  .list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 375px;
+    font-size: 36px;
+    /* margin-right: 0px; */
+    position: absolute;
+    flex-direction: column;
+    background-color: black;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .navs {
+    color: white;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    padding: 10px 44px;
+    overflow: hidden;
+  }
+  .logo {
+    z-index: 20;
+  }
+  .cross {
+    height: 35px;
+    width: 10%;
+    z-index: 25;
+  }
+  .translate {
+    transform: translateX(400px);
   }
 }
